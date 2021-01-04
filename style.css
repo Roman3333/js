@@ -1,0 +1,93 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:after,
+*:before {
+  box-sizing: inherit;
+}
+
+body {
+  font-size: 18px;
+  line-height: 21px;
+  color: #2f3035;
+  height: 3000px;
+}
+
+a {
+  cursor: pointer;
+  text-decoration: none;
+  color: inherit;
+}
+
+ul,
+li {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  max-width: 1200px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.interactive {
+  text-decoration: none;
+  padding: 70px;
+  background: #fb0707;
+  color: #fff;
+  border-radius: 20px;
+  margin: 0 auto;
+  transition: all 1.3s;
+}
+
+.active {
+  background-color: black;
+  position: fixed;
+  top: 0;
+  right: 0;
+}
+
+.btn-box {
+  margin-top: 100px;
+}
+
+.form {
+  text-align: center;
+  margin: 110px auto;
+}
+
+.opa {
+  margin-top: 20px;
+  border: 1px solid #b71fc0;
+}
+
+.link {
+  width: 20px;
+  height: 20px;
+  background-color: black;
+  display: inline-block;
+}
+
+.link.link-active {
+  background-color: red;
+}
+
+.contents {
+  position: relative;
+  background-color: red;
+  width: 800px;
+}
